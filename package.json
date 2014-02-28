@@ -31,7 +31,6 @@
     "minimist": "0.0.8",
     "heroku-client": "^1.1.1",
     "q": "^1.0.0",
-    "needle": "^0.6.3",
     "request": "^2.34.0"
   }
 }
