@@ -31,6 +31,6 @@
     "minimist": "0.0.8",
     "heroku-client": "^1.1.1",
     "q": "^1.0.0",
-    "request": "^2.34.0"
+    "http-sync": "0.0.4"
   }
 }
