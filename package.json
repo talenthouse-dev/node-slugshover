@@ -1,0 +1,37 @@
+{
+  "name": "slugshover",
+  "version": "0.0.1",
+  "main": "lib/slugshover.js",
+  "description": "A Node library and microclient for deploying slugs to Heroku",
+  "homepage": "http://github.com/Damiya/slugshover/",
+  "bugs": "http://github.com/Damiya/slugshover/issues",
+  "author": {
+    "name": "Kate von Roeder",
+    "email": "katevonroeder@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Damiya/slugshover.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "keywords": [],
+  "devDependencies": {
+    "gulp": "~3.5.0",
+    "gulp-load-plugins": "~0.3.0",
+    "gulp-util": "~2.2.9"
+  },
+  "bin": {
+    "slugshover": "bin/slugshover.js"
+  },
+  "dependencies": {
+    "minimist": "0.0.8",
+    "heroku-client": "^1.1.1",
+    "q": "^1.0.0",
+    "needle": "^0.6.3",
+    "request": "^2.34.0"
+  }
+}
