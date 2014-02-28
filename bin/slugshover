@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var slugshover = require('./../lib/slugshover');
+
+var argv = require('minimist')(process.argv.slice(2));
+
+var appName = argv.app || process.env.HEROKU_APP_NAME;
+var artifactName = argv.artifact || process.env.HEROKU_ARTIFACT_NAME;
+var process_type = argv.process_type || process.env.HEROKU_PROCESS_TYPE;
+var process_args = argv.process_args || process.env.HEROKU_PROCESS_ARGS;
+
+//TODO: Build this bin thing.

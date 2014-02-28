@@ -1,7 +1,7 @@
 {
   "name": "slugshover",
   "version": "0.0.1",
-  "main": "lib/slugshover.js",
+  "main": "lib/slugshover",
   "description": "A Node library and microclient for deploying slugs to Heroku",
   "homepage": "http://github.com/Damiya/slugshover/",
   "bugs": "http://github.com/Damiya/slugshover/issues",
@@ -25,7 +25,7 @@
     "gulp-util": "~2.2.9"
   },
   "bin": {
-    "slugshover": "bin/slugshover.js"
+    "slugshover": "bin/slugshover"
   },
   "dependencies": {
     "minimist": "0.0.8",
