@@ -1,6 +1,6 @@
 {
   "name": "slugshover",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/slugshover",
   "description": "A Node library and microclient for deploying slugs to Heroku",
   "homepage": "http://github.com/Damiya/slugshover/",
